@@ -90,6 +90,8 @@ contactForm?.addEventListener("submit", e => {
 });
 
 // Resume button
+const resumeBtn = document.getElementById("download-resume");
+// const downloadBtn = document.getElementById("download-resume");
 downloadBtn?.addEventListener("click", () => {
   window.open("resume.pdf", "_blank");
 });
